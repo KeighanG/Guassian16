@@ -1,4 +1,5 @@
 # My Gaussian16 Workflow for excited state calculations
+## Starting with a ground state optimization, then calculating the energy of the excited triplet state 
 1. Lookup molecule of interest on PubChem (https://pubchem.ncbi.nlm.nih.gov/)
 2. Download the 3D coordinates
 3. Convert the file to XYZ cartesian coordinates for Gaussian input using OPENBABEL online chemical format converter (https://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html) *** make sure to generate 3D coordinates ***
