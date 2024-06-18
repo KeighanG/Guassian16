@@ -8,7 +8,7 @@
     a. Make sure there are 2 empty lines below your specified geometry
 6. Run the job script (submit__.sh)
 7. Check the status of the job using squeue -u <USERNAME>
-8. Once the job is complete, check the output in the .log files 
+8. Once the job is complete, check the output in the .log files using: cat ___.log
 
 
 
