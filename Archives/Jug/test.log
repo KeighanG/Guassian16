@@ -1,0 +1,133 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /arc/software/Gaussian/g16.c01/l1.exe "/tmp/slurm/1118727/Gau-104394.inp" -scrdir="/tmp/slurm/1118727/"
+ Entering Link 1 = /arc/software/Gaussian/g16.c01/l1.exe PID=    104395.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                 6-Jun-2024 
+ ******************************************
+ %chk=jug.chk
+ %mem=128GB
+ %nprocshared=4
+ Will use up to    4 processors via shared memory.
+ ----------------------------------------------------------------
+ # TDA=(triplet,root=1) scrf=(solvent=water) int=ultrafine Nosymm
+ ----------------------------------------------------------------
+ 1/38=1,172=1/1;
+ 2/12=2,15=1,17=6,18=5,40=1/2;
+ 3/11=9,25=1,30=1,70=2201,72=1,75=-5/1,2,3,8;
+ 4//1;
+ 5/5=2,38=5,53=1/2;
+ 8/6=1,10=1,107=1/1;
+ 9/8=1,42=1,48=3/14;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/5=1,9=1/99;
+ ---------------------------------
+ Juglone triplet state calculation
+ ---------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 3
+ O                     2.84874  -0.54614  -0.09603 
+ O                     1.06731  -2.454     0.00307 
+ O                    -2.95435   1.04914   0.01438 
+ C                     0.44055  -0.18524  -0.00097 
+ C                    -0.61083   0.73202   0.04065 
+ C                     1.75993   0.28268  -0.04186 
+ C                     0.15563  -1.63094  -0.00356 
+ C                    -0.3449    2.10758   0.07819 
+ C                    -2.01179   0.26795   0.0216 
+ C                     2.02471   1.65094  -0.03341 
+ C                     0.97276   2.56456   0.03855 
+ C                    -1.25198  -2.06826  -0.01388 
+ C                    -2.25523  -1.18793  -0.00899 
+ H                    -1.1622    2.82602   0.13133 
+ H                     3.05241   2.00382  -0.08098 
+ H                     1.18098   3.63206   0.05654 
+ H                    -1.42774  -3.13773  -0.03163 
+ H                    -3.29307  -1.50078  -0.02771 
+ H                     2.53398  -1.4779   -0.06726 
+ End of file in ZSymb.
+ Error termination via Lnk1e in /arc/software/Gaussian/g16.c01/l101.exe at Thu Jun  6 13:30:40 2024.
+ Job cpu time:       0 days  0 hours  0 minutes  0.3 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  0.3 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=     19 Scr=      1
+Error: segmentation violation
+   rax 0x0000000000000000, rbx 0xffffffffffffffff, rcx 0xffffffffffffffff
+   rdx 0x00000000000197cb, rsp 0x00007fffffff55e8, rbp 0x00000000011ceb70
+   rsi 0x000000000000000b, rdi 0x00000000000197cb, r8  0x0000000000e71b20
+   r9  0x0000000064f19060, r10 0x00007fffffff49e0, r11 0x0000000000000206
+   r12 0x00007fffffff5718, r13 0x00007fffffff5708, r14 0x00007fffffff5718
+   r15 0x00007fffffff5710
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libpthread.so.0(+0xf630) [0x2aaaaacde630]
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc.so.6(kill+0x7) [0x2aaaab223657]
+  /arc/software/Gaussian/g16.c01/l101.exe() [0x408463]
