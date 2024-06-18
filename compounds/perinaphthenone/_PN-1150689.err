@@ -1,0 +1,10 @@
+Error: segmentation violation
+   rax 0x0000000000000000, rbx 0xffffffffffffffff, rcx 0xffffffffffffffff
+   rdx 0x0000000000008bb8, rsp 0x00007fffffff8fc8, rbp 0x00000000011ceb70
+   rsi 0x000000000000000b, rdi 0x0000000000008bb8, r8  0x0000000000e71b20
+   r9  0x0000000064f19060, r10 0x00007fffffff83a0, r11 0x0000000000000202
+   r12 0x00007fffffff90f8, r13 0x00007fffffff90e8, r14 0x00007fffffff90f8
+   r15 0x00007fffffff90f0
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libpthread.so.0(+0xf630) [0x2aaaaacde630]
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc.so.6(kill+0x7) [0x2aaaab223657]
+  /arc/software/Gaussian/g16.c01/l101.exe() [0x408463]
