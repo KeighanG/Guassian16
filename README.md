@@ -6,7 +6,7 @@
 4. Press convert once all settings are correct
 5. Copy the output into the ground_state_opt.com  file under the charge and spin specifications (0 1)
     a. Make sure there are 2 empty lines below your specified geometry
-6. Edit the triplet_state_opt.com file to contain your compound name and functional/basis sets
+6. Edit the triplet_state_sp.com file to contain your compound name and functional/basis sets
 7. Run the job script (submit__.sh)
 8. Check the status of the job using squeue -u ___(username)___
 9. Once the job is complete, check the output in the .log files using: cat ___.log
